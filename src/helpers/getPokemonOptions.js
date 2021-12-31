@@ -1,7 +1,7 @@
 import { pokemonApi } from "@/services/pokemonApi"
 
 const getPokemons = () => {
-    const pokemonsArr = Array.from(Array(605))
+    const pokemonsArr = Array.from(Array(650))
     
     return pokemonsArr.map((_, index) => index + 1)
 }
@@ -38,5 +38,7 @@ const getPokemonsName = async ([a,b,c,d] = []) => {
 
 
 export {
-    getPokemonOptions
+    getPokemonOptions,
+    getPokemons,
+    getPokemonsName,
 }

@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import { computed } from '@vue/reactivity'
 export default {
     name: "PokemonPicture",
 
